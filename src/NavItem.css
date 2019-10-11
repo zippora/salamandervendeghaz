@@ -1,0 +1,66 @@
+.Nav-item a.active {
+    color: whitesmoke;
+    background-color:  #80b380;
+    border-color: #01AFA3;
+    border-width: 1px;
+    border-radius:5px;
+
+}
+.Nav-item a {
+    font-size: 36px;
+    list-style: none;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-family: 'Great Vibes', cursive;
+    font-weight: lighter;
+    color: whitesmoke;
+    transition: background linear 0.4s;
+    font-weight: 100;
+    margin-left: 2px;
+    margin-right: 2px;
+    
+}
+
+
+
+
+.Nav-item {
+    display: inline-block;
+    margin: 10px 16px;
+}
+.Nav-item a:hover {
+
+    color: black;
+    background-color: whitesmoke;
+    border-color: #01AFA3;
+    border-width: 1px;
+    border-radius:5px;
+
+}
+
+
+
+/*phones and down */
+@media (max-width: 500px) {
+    .Nav-item a.active {
+        color: whitesmoke;
+        background-color:  #80b380;
+        border-color: #01AFA3;
+        border-width: 2px;
+        border-radius:5px;
+
+    }
+    .Nav-item a {
+        font-size: 7vw;
+        list-style: none;
+        padding: 0px 6px;
+        text-decoration: none;
+        font-family: 'Great Vibes', cursive;
+        font-weight: lighter;
+        transition: background linear 0.3s;
+        margin-left: 1px;
+        margin-right: 1px;
+
+    }
+
+}

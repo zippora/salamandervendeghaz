@@ -1,0 +1,35 @@
+
+.foto {
+
+    max-width: 2000px;
+    padding: 15px 20%;
+    margin-top: 20px;
+    height: 200%;
+}
+
+.foto img {
+
+    width: auto !important;
+    position: relative !important;
+
+}
+
+.aws-sld__content {
+
+    background-color: #FBF3DA !important;
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 600px) {
+
+    .foto {
+
+        max-width: 2000px;
+        padding: 5px 5%;
+        border-radius:3px;
+
+        margin-top: 10px;
+        height: 250%;
+    }
+}
