@@ -50,18 +50,8 @@ body {
     background-position: center;
 }
 
-.App-intro {
-    font-size: large;
-}
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
+
 
 .logo {
 
@@ -75,24 +65,7 @@ body {
     border-color: white;
 }
 
-.button{
-    height: 10px;
-    float: right;
-    border: none;
-    padding: 0px;
-    margin: 4px;
-    text-decoration: none;
-    background: none;
-    font-family: sans-serif;
-    cursor: pointer;
-    text-align: center;
 
-
-}
-
-.but{
-    font-family: 'Great Vibes', sans-serif;
-}
 
 nav {
     margin: 25px auto;
@@ -116,7 +89,7 @@ nav {
 }
 
 .App-header .container2 {
-    margin: 0px;
+    margin: 0;
     display: flex;
     justify-content: space-evenly;
 

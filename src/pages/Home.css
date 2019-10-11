@@ -1,11 +1,11 @@
-.intro{
-    min-height: calc(100vh - 320px);
+.bg-white{
+    background: #FBF3DA;
 }
+
 section {
     font-family: 'Montserrat',sans-serif;
-    font-weight: 400;
-    padding: 20px 20%;
-    max-width: 80%;
+    padding: 20px 25%;
+    max-width: 70%;
     margin: auto auto;
     text-align: center;
 
@@ -28,11 +28,6 @@ section {
 }
 
 
-section img{
-
-    max-height: 800px;
-    float:left;
-}
 
 .column {
     float: left;
@@ -55,60 +50,14 @@ section img{
 
 .column2 {
     margin-top: 0;
-
     font-family: 'Montserrat',sans-serif;
     font-size: 14px;
     float: right;
     width: 35%;
 }
 
-h1{
-    color: #FBF3DA;
-    background-size: cover;
-    font-size: 38px;
-    font-family: 'Bitter', serif;
-    font-weight: 400;
-    margin: -5px;
-    text-align: center;
-}
-h1 span{
-    color: #01AFA3;
-}
-section hr {
-    background-repeat: repeat-x;
-    height: 3px;
-    border: none;
-}
-section button{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    text-align: center;
-    text-transform: uppercase;
-    margin-right: 30px;
-    margin-bottom:30px;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    transition: all .3s ease;
-}
-section button span{
-    color: #01AFA3;
-}
-section button:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-.bg-white{
-    background: #FBF3DA;
-}
-.bg-white h1{
-    background: none;
-    color: #382515;
-}
 
-.call-to-action{
-    padding: 40px 0;
-    display: flex;
-}
+
 
 
 /*phones and down */

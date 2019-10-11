@@ -4,11 +4,11 @@ import 'react-awesome-slider/dist/styles.css';
 
 
 
-import './Contact.css';
+import './Fotogalerij.css';
 import AwesomeSlider from "react-awesome-slider";
 
 
-export class Contact extends React.Component {
+export class Fotogalerij extends React.Component {
 
 
 

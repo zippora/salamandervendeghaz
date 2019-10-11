@@ -12,10 +12,8 @@
     padding: 8px 20px;
     text-decoration: none;
     font-family: 'Great Vibes', cursive;
-    font-weight: lighter;
     color: whitesmoke;
     transition: background linear 0.4s;
-    font-weight: 100;
     margin-left: 2px;
     margin-right: 2px;
     
@@ -53,7 +51,7 @@
     .Nav-item a {
         font-size: 7vw;
         list-style: none;
-        padding: 0px 6px;
+        padding: 0 6px;
         text-decoration: none;
         font-family: 'Great Vibes', cursive;
         font-weight: lighter;
