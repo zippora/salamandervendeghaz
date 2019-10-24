@@ -30,11 +30,12 @@ export class Home extends React.Component {
                         </SharedLanguageConsumer>
 
                         </p>
-                            <p>
+
+
                                    <span ><i
                                        className="material-icons">location_city</i>  8251 Zánka, Vérkúti utca 104</span><br/>
                                 <span ><i className="material-icons">phone</i>  +36 20 281 6210</span>
-                            </p>
+
                         </div>
 
                         <div className="column">
@@ -47,8 +48,12 @@ export class Home extends React.Component {
                         <div className="column2">
                             <h3>
                                 <SharedLanguageConsumer>
-                                    {(context) => context.overig1}
+                                    {(context) => context.overig0}
                                 </SharedLanguageConsumer></h3>
+                            <p>&#x02022;
+                                <SharedLanguageConsumer>
+                                    {(context) => context.overig1}
+                                </SharedLanguageConsumer></p>
                             <p>&#x02022;
                                 <SharedLanguageConsumer>
                                     {(context) => context.overig2}

@@ -1,16 +1,11 @@
 import React from 'react';
 import 'react-awesome-slider/dist/styles.css';
 
-
-
-
 import './Fotogalerij.css';
 import AwesomeSlider from "react-awesome-slider";
 
 
 export class Fotogalerij extends React.Component {
-
-
 
 
 
