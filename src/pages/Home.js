@@ -32,14 +32,10 @@ export class Home extends React.Component {
                         </p>
 
 
-                                   <span ><i
-                                       className="material-icons">location_city</i>  8251 Zánka, Vérkúti utca 104</span><br/>
-                                <span ><i className="material-icons">phone</i>  +36 20 281 6210</span>
 
                         </div>
 
                         <div className="column">
-                            <br/><br/>
                          <img src="img/stoelen-wijn.jpg"/>
 
                         </div>
