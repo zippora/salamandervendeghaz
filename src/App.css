@@ -1,6 +1,5 @@
 body {
-    background:  #fcf7e8
-;
+    background: #FBF3DA;
 }
 
 .aws-btn {
@@ -35,30 +34,39 @@ body {
     max-width: 100%;
 }
 
-
 .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-    height: 200px;
+    animation: App-logo-spin infinite 10s linear;
+    height: 80px;
     float: left;
-
+    padding:5px;
+    border-radius:7px;
 }
 
-
 .App-header {
+    padding: 10px;
     color: white;
     top: 0;
     width: 100%;
     background-image: url("/img/backgroundheader.png");
     background-size: cover;
     background-position: center;
-    border-bottom: 5px solid #80b380;
-    border-top: 5px solid #80b380;
 }
 
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+
+    0%   {transform: rotate(-2deg);}
+    50%  {transform: rotate(0deg)}
+    100% {transform: rotate(-2deg)}
+
+}
 
 .logo {
 
-    min-width: 200px;
+    width: 500px;
     height: 200px;
     float: left;
     margin-top: 5px;
@@ -68,6 +76,24 @@ body {
     border-color: white;
 }
 
+.button{
+    height: 10px;
+    float: right;
+    border: none;
+    padding: 0px;
+    margin: 4px;
+    text-decoration: none;
+    background: none;
+    font-family: sans-serif;
+    cursor: pointer;
+    text-align: center;
+
+
+}
+
+.but{
+    font-family: 'Great Vibes', sans-serif;
+}
 
 nav {
     margin: 25px auto;
@@ -91,7 +117,7 @@ nav {
 }
 
 .App-header .container2 {
-    margin: 0;
+    margin: 0px;
     display: flex;
     justify-content: space-evenly;
 
@@ -138,12 +164,6 @@ h3 {
 
     }
 
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-        height: 80px;
-        float: left;
-    }
-
 
     .App-header .container {
         margin: 0 auto;
@@ -152,19 +172,22 @@ h3 {
 
     .App-header .container img {
         max-height: 40%;
+        max-width: 40%;
     }
 
     h2 {
         font-family: 'Great Vibes', cursive;
-        font-size:10vw;
+        font-size:40px;
         color:  darkseagreen;
         text-align: left;
         font-weight: lighter;
+        padding-left: 40%;
 
     }
 
     .logo {
 
+        height: 50px;
         margin-top: 15px;
         margin-right: 20px;
         border-radius: 100%;
@@ -220,7 +243,7 @@ h3 {
 
 
     .App img {
-        max-width: 180%;
+        max-width: 150%;
 
     }
 

@@ -157,6 +157,8 @@ export class App extends Component {
                         <div className="App-header">
                             <div className="container">
                                 <img className="App-logo" src="./img/logokrisztina.jpg" alt="logo"/>
+
+                                <h2>Salamander Vendégház</h2>
                                 <nav>
                                     <NavItem title="home" to="/" exact={true}/>
                                     <NavItem title={this.state.fotogalerij} to="/fotogalerij"/>
