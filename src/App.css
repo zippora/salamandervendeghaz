@@ -36,7 +36,7 @@ body {
 
 .App-logo {
     animation: App-logo-spin infinite 10s linear;
-    height: 80px;
+    height: 150px;
     float: left;
     padding:5px;
     border-radius:7px;
@@ -141,6 +141,7 @@ h2 {
     color:   #80b380;
     text-align: left;
     font-weight: lighter;
+    padding-left: 20%;
 
 }
 
@@ -154,7 +155,7 @@ h3 {
 }
 
 /* Landscape phones and down */
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 
     nav {
         margin: 5px auto;
@@ -245,6 +246,14 @@ h3 {
     .App img {
         max-width: 150%;
 
+    }
+
+    .App-logo {
+        animation: App-logo-spin infinite 10s linear;
+        height: 80px;
+        float: left;
+        padding:5px;
+        border-radius:7px;
     }
 
 
