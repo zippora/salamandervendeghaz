@@ -250,7 +250,16 @@ h3 {
         float: left;
         padding: 1px;
     }
+    .App-header {
+        padding: 10px;
+        color: white;
+        top: 0;
+        width: 100%;
+        background-image: url("/img/herfst-klein.png");
+        background-size: cover;
+        background-position: center;
 
+    }
 
 }
 

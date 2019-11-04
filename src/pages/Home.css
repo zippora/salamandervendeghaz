@@ -35,7 +35,6 @@ section {
     width: 45%;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-
     margin-left: 15%;
     margin-top: 2em;
 
@@ -63,7 +62,7 @@ section {
 
 
 /*phones and down */
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 
     section {
         font-family: 'Montserrat', sans-serif;
