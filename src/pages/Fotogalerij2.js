@@ -7,29 +7,13 @@ import './Fotogalerij2.css';
 
 import "react-image-gallery/styles/css/image-gallery.css";
 
-import { DateRangePicker } from 'react-date-range';
 
-
-import 'react-date-range/dist/styles.css'; // main style file
-import 'react-date-range/dist/theme/default.css';
 
 export class Fotogalerij2 extends React.Component {
 
-    handleSelect(ranges) {
-
-        console.log(ranges);
-    }
 
     render() {
 
-            const selectionRange = {
-
-
-
-                startDate: new Date('10-16-2019'),
-                endDate:  new Date('12-31-2019'),
-                key: 'selection',
-            }
 
         const images = [
 
@@ -146,14 +130,8 @@ export class Fotogalerij2 extends React.Component {
 
 
     <section className="foto">
-        <DateRangePicker
-            ranges={[selectionRange]}
-            onChange={this.handleSelect}
-        />
 
-
-                <ImageGallery items={images} showBullets='false' />
-
+                <ImageGallery items={images} showBullets='false' showNav={'false'}/>
 
             </section>
         );

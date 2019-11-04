@@ -1,6 +1,6 @@
 
 .credit{
-    font-size: 8px;
+    font-size: 7.5px;
     text-align: center;
     align-items: center;
     display: inline-block;
@@ -14,8 +14,8 @@
     align-items: center;
     display: inline-block;
     justify-content: space-evenly;
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
 
 }
 
@@ -28,8 +28,8 @@
         align-items: center;
         display: inline-block;
         justify-content: space-evenly;
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 90px;
 
     }
 

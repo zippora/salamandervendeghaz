@@ -8,8 +8,8 @@ import {createClient} from 'contentful';
 import {Footer} from "./Footer";
 import {Fotogalerij} from './pages/Fotogalerij';
 import {Fotogalerij2} from './pages/Fotogalerij2';
-import Login from "./Login";
-import {Reserveringen} from "./Reserveringen";
+import {AboutUs} from './pages/AboutUs';
+
 
 
 import {AwesomeButton} from "react-awesome-button";
@@ -31,6 +31,7 @@ export class App extends Component {
 
     state = {
         fotogalerij: "fotógaléria",
+        aboutus:"rólunk",
         huis: "Vendégház",
         text1: "Zánkán, a Balaton egyik  legszebb részén nyugodt, csendes utcában vendégházunk kiadó.\nA két szintes Nyaraló ideális családok és baráti társaságok, kerékpárosok pihenésére.\nAz ingatlantól 500 méterre található Zánka község strandja, a vasútállomás, buszmegálló. \nÉttermek, boltok, orvosi rendelő 10 perc sétával érhető el.\nA kert alatti Balaton és a parti sétány könnyen megközelíthető.",
         text2: "Az épület alsó részén két szoba, fürdőszoba, előszoba, konyha és egy bárterasz található, felső részén egybenyitott nagyobb szoba, gyereksarok, teakonyha, fürdőszoba és egy kis terasz van kialakítva.\nIngyenes WIFI hálózat, kábeltévé van.\nFérőhelyünk 7 fő, pótágyazható.\nMindkét teraszunk  Balatonra néz.\nAz udvarban belső parkoló, sátorozási, főzési, grillezési lehetőség adott.\nVendégházunk állatbarát, és akár egy éjszakára is kivehető.\nAz ingatban az alsò ès a felső rèsz kūlön is kivehető.",
@@ -54,6 +55,7 @@ export class App extends Component {
     onClickButtonuk = () => {
         this.setState({
             huis: "Guesthouse",
+            aboutus:"about us",
             fotogalerij: "photo gallery\n",
             text1: "We offer to rent our place in one of the most beautiful place of lake Balaton, a friendly little village, Zánka.\n\n\nOur two story house is perfect either for families, byciclers or group of friends.\nYou can find the village beach, train station, bus stop 500 meters from us.\nRestaurants, grocery stores, doctors office are 10 minutes walking distance.\nIt is easy to reach the Balaton and the walking path along the shore.",
             text2: "On the first floor of the building there are two bedrooms, a bathroom, hall, kitchen and a bar terrace, on the second floor there is a bigger room, children’s corner, small kitchen, bathroom and a small terrace. Both our terraces are facing the lake.\nThere is free WiFi network, and cable TV.\nAnimals are also allowed.",
@@ -77,6 +79,7 @@ export class App extends Component {
     onClickButtonnl = () => {
         this.setState({
             huis: "Gasthuis",
+            aboutus:"over ons",
             fotogalerij: "fotogalerij",
             text1: "Wij bieden ons huis te huur aan in Zánka, één van de mooiste delen van het Balatonmeer.\n\n\nDit vakantiehuis is ideaal voor gezinnen en groepen fietsers of vrienden.\nHet ligt direct aan het fietspad en niet ver van het strand, het dorp en het trein- en busstation.\nRestaurants, winkels, medische hulp en apotheek liggen allen op 15-20 minuten loopafstand.\nHet huis ligt aan het Balatonmeer en het wandelpad langs de oever.",
             text2: "Op de begane grond zijn twee slaapkamers, een badkamer, gang, keuken en een 'bar-terras', op de eerste verdieping is een woonkamer, kinderspeelhoek, kleine theekeukentje, badkamer met douche en een klein terras. Al onze terassen geven een mooi uitzicht over het meer.\nEr is gratis wifi en kabel TV.\nHuisdieren zijn toegestaan. In det tuin zijn kook- en barbecuefaciliteiten beschikbaar. Het huis is geschikt voor 7-8 personen, maar er zijn extra matrassen beschikbaar",
@@ -100,6 +103,7 @@ export class App extends Component {
     onClickButtonde = () => {
         this.setState({
             huis: "Gästehaus",
+            aboutus:"Über uns",
             fotogalerij: "fotogalerie",
             text1: "Unser Gästehaus befindet sich in einer ruhigen Straße in Zánka, einem der schönsten Teile des Plattensees. Dieses zweistöckige Ferienhaus ist ideal für Familien und Gruppen von Freunden und Radfahrern. Die Unterkunft befindet sich 500 m vom Strand Zánka, einem Bahnhof und einer Bushaltestelle entfernt. Restaurants, Geschäfte und eine Arztpraxis erreichen Sie in 10 Minuten zu Fuß. Der Plattensee und die Strandpromenade sind bequem zu erreichen.",
             text2: "Der untere Teil des Gebäudes besteht aus zwei Räumen, einem Badezimmer, einem Flur, einer Küche und einer Bar-Terrasse, der obere Teil besteht aus einem größeren zusammenhängenden Raum, einer Kinderecke, einer Küchenzeile, einem Badezimmer und einer kleinen Terrasse. Kostenloses WIFI-Netzwerk, Kabel-TV. Unsere Kapazität beträgt 7 Personen, Zustellbett möglich. Beide Terrassen überblicken den Plattensee. Auf dem Hof ​​gibt es ein Parkhaus, Zelt-, Koch- und Grillmöglichkeiten. Unser Gästehaus ist tierfreundlich und kann über Nacht mitgenommen werden.",
@@ -124,6 +128,7 @@ export class App extends Component {
     onClickButtonhu = () => {
         this.setState({
             contact: "fotógaléria",
+            aboutus:"rólunk",
             huis: "Vendégház",
             text1: "Zánkán, a Balaton egyik  legszebb részén nyugodt, csendes utcában vendégházunk kiadó.\nA két szintes Nyaraló ideális családok és baráti társaságok, kerékpárosok pihenésére.\nAz ingatlantól 500 méterre található Zánka község strandja, a vasútállomás, buszmegálló. \nÉttermek, boltok, orvosi rendelő 10 perc sétával érhető el.\nA kert alatti Balaton és a parti sétány könnyen megközelíthető.",
             text2: "Az épület alsó részén két szoba, fürdőszoba, előszoba, konyha és egy bárterasz található, felső részén egybenyitott nagyobb szoba, gyereksarok, teakonyha, fürdőszoba és egy kis terasz van kialakítva.\nIngyenes WIFI hálózat, kábeltévé van.\nFérőhelyünk 7 fő, pótágyazható.\nMindkét teraszunk  Balatonra néz.\nAz udvarban belső parkoló, sátorozási, főzési, grillezési lehetőség adott.\nVendégházunk állatbarát, és akár egy éjszakára is kivehető.\nAz ingatban az alsò ès a felső rèsz kūlön is kivehető.",
@@ -157,11 +162,11 @@ export class App extends Component {
                         <div className="App-header">
                             <div className="container">
                                 <img className="App-logo" src="./img/logo8.png" alt="logo"/>
-
-                                <h2>Salamander Vendégház</h2>
+                                <h2>Salamander {this.state.huis}</h2>
                                 <nav>
                                     <NavItem title="home" to="/" exact={true}/>
                                     <NavItem title={this.state.fotogalerij} to="/fotogalerij"/>
+
 
 
                                 </nav>
@@ -211,8 +216,8 @@ export class App extends Component {
                         <Route exact path="/" component={Home}/>
                         <Route exact path="/fotogalerij" component={Fotogalerij}/>
                         <Route exact path="/fotogalerij2" component={Fotogalerij2}/>
-                        <Route path="/login" exact component={Login}/>
-                        <Route path="/reserveringen" exact component={Reserveringen}/>
+                        <Route exact path="/aboutUs" component={AboutUs}/>
+
 
 
                         <Footer/>

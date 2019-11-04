@@ -1,5 +1,5 @@
 body {
-    background: white;
+    background: #fcf7e8;
 }
 
 .aws-btn {
@@ -37,13 +37,13 @@ body {
     float: left;
     padding: 1px;
     border-radius: 100%;
-    background-color: whitesmoke;
+    background-color: #fcf7e8;
 }
 
 
 .App-header {
     padding: 10px;
-    color: white;
+    color: #fcf7e8;
     top: 0;
     width: 100%;
     background-image: url("/img/herfst.png");
@@ -176,7 +176,7 @@ h3 {
 
     h2 {
         font-family: 'Great Vibes', cursive;
-        font-size: 40px;
+        font-size: 34px;
         color: darkseagreen;
         text-align: left;
         font-weight: lighter;
@@ -252,7 +252,7 @@ h3 {
     }
     .App-header {
         padding: 10px;
-        color: white;
+        color: #fcf7e8;
         top: 0;
         width: 100%;
         background-image: url("/img/herfst-klein.png");
