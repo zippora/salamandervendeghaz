@@ -32,6 +32,7 @@ export class Home extends React.Component {
                         </SharedLanguageConsumer>
 
                         </p>
+                            <img className="footer-logo" src="./img/logo.png" alt="logo"/>
 
 
 

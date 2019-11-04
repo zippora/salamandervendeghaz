@@ -10,7 +10,6 @@ export class Footer extends React.Component {
         return (
 
             <div className="credit">
-            <img className="footer-logo" src="./img/logo.png" alt="logo"/>
             <br/><br/>
 
                 <span className="webmaster">&copy; Design/development by Zippora Levering<br/><br/></span>
