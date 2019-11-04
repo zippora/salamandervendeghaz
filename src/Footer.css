@@ -8,3 +8,32 @@
     width: 100%;
 }
 
+.footer-logo{
+
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 200px;
+
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 900px) {
+    .footer-logo{
+
+        text-align: center;
+        align-items: center;
+        display: inline-block;
+        justify-content: space-evenly;
+        height: 100px;
+        width: 100px;
+
+    }
+
+
+
+
+}

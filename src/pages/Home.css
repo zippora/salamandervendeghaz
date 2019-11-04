@@ -1,6 +1,4 @@
 .bg-white{
-    background:  #fcf7e8
-;
 }
 
 section {
@@ -87,7 +85,7 @@ section {
 
     .basistext{
         font-family: 'Montserrat',sans-serif;
-        font-size: 12px;
+        font-size: 13px;
         width:80%;
         text-align: center;
         margin: auto auto;

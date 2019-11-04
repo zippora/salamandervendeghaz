@@ -5,6 +5,7 @@ import {SharedLanguageConsumer} from "../App";
 
 
 
+
 export class Home extends React.Component {
 
 
@@ -16,6 +17,7 @@ export class Home extends React.Component {
                 <div className="intro">
                     <div className="bg-white">
                         <div className="basistext">
+
                         <p>
                             <SharedLanguageConsumer>
                                 {(context) => context.text1}
@@ -36,7 +38,7 @@ export class Home extends React.Component {
                         </div>
 
                         <div className="column">
-                         <img src="img/stoelen-wijn.jpg"/>
+                         <img src="img/barterras.jpg"/>
 
                         </div>
 

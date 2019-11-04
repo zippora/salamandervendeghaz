@@ -1,5 +1,5 @@
 body {
-    background: #FBF3DA;
+    background: white;
 }
 
 .aws-btn {
@@ -35,23 +35,18 @@ body {
 .App-logo {
     height: 150px;
     float: left;
-    padding: 3px;
+    padding: 1px;
     border-radius: 100%;
-    border: double;
     background-color: whitesmoke;
-    animation-duration: 5s;
-    animation-name: App-logo-spin;
-    animation-iteration-count: 1;
-
-
 }
+
 
 .App-header {
     padding: 10px;
     color: white;
     top: 0;
     width: 100%;
-    background-image: url("/img/backgroundheader.png");
+    background-image: url("/img/herfst.png");
     background-size: cover;
     background-position: center;
 
@@ -80,8 +75,6 @@ body {
     margin-top: 5px;
     margin-right: 30px;
     border-radius: 100%;
-    border: solid;
-    border-color: white;
 }
 
 .button {
@@ -143,6 +136,8 @@ h2 {
     text-align: left;
     font-weight: lighter;
     padding-left: 10%;
+    text-shadow: 0 1px darkolivegreen;
+
 
 }
 
@@ -152,6 +147,8 @@ h3 {
     color: #80b380;
     text-align: left;
     font-weight: lighter;
+
+
 
 }
 
@@ -184,6 +181,7 @@ h3 {
         text-align: left;
         font-weight: lighter;
         padding-left: 40%;
+        text-shadow: 0 1px darkolivegreen;
 
     }
 
@@ -250,7 +248,7 @@ h3 {
     .App-logo {
         height: 80px;
         float: left;
-        padding: 3px;
+        padding: 1px;
     }
 
 
