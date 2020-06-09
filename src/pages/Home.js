@@ -38,7 +38,7 @@ export class Home extends React.Component {
 
                         </div>
                         <div className="column">
-                         <img src="img/barterras.jpg"/>
+                         <img src="img/galer/hatsokerti_piheno.jpg"/>
 
                         </div>
 
