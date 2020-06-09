@@ -14,39 +14,58 @@ export class Fotogalerij extends React.Component {
 
     render() {
         return (
-             <section className="foto">
+            <section className="foto">
 
                 <AwesomeSlider organicArrows={true}>
-                    <div data-src="./img/portfolio/IMG-20191008-WA0000.jpg"/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0001.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0002.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0003.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0004.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0005.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0006.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0007.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0008.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0009.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0010.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0011.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0012.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0013.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0014.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0015.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0016.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0017.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0018.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0019.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0020.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0021.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0023.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0024.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0025.jpg'/>
-                    <div data-src='./img/portfolio/IMG-20191008-WA0026.jpg'/>
+                    <div data-src="./img/galer/buiten.jpg"/>
+                    <div data-src='./img/galer/elokerti_piheno.jpg'/>
+                    <div data-src='./img/galer/emeleti_furdoszoba.jpg'/>
+                    <div data-src='./img/galer/emeleti_furdoszoba1.jpg'/>
+                    <div data-src='./img/galer/emeleti_furdoszoba2.jpg'/>
+                    <div data-src='./img/galer/emeleti_gyereksarok.jpg'/>
+                    <div data-src='./img/galer/emeleti_kiskonyha.jpg'/>
+                    <div data-src='./img/galer/emeleti_kiskonyha1.jpg'/>
+
+                    <div data-src='./img/galer/emeleti_panorama.jpg'/>
+                    <div data-src='./img/galer/emeleti_szoba.jpg'/>
+                    <div data-src='./img/galer/emeleti_szoba1.jpg'/>
+                    <div data-src='./img/galer/emeleti_terasz.jpg'/>
+                    <div data-src='./img/galer/foldszini_nagyszoba.jpg'/>
+                    <div data-src='./img/galer/foldszini_nagyszoba1.jpg'/>
+                    <div data-src='./img/galer/foldszini_nagyszoba2.jpg'/>
+
+                    <div data-src='./img/galer/foldszinti_barterasz.jpg'/>
+                    <div data-src='./img/galer/foldszinti_barterasz1.jpg'/>
+
+                    <div data-src='./img/galer/foldszinti_eloter.jpg'/>
+                    <div data-src='./img/galer/foldszinti_kisszoba.jpg'/>
+                    <div data-src='./img/galer/foldszinti_kisszoba1.jpg'/>
+                    <div data-src='./img/galer/foldszinti_kisszoba2.jpg'/>
+
+                    <div data-src='./img/galer/foldszinti_konyha1.jpg'/>
+                    <div data-src='./img/galer/foldzinti_furdoszoba.jpg'/>
+                    <div data-src='./img/galer/foldzinti_furdoszoba1.jpg'/>
+                    <div data-src='./img/galer/foldszinti_furdoszoba4.jpg'/>
+
+                    <div data-src='./img/galer/hatsokerti_piheno.jpg'/>
+                    <div data-src='./img/galer/salamander_vendeghaz.jpg'/>
+
+
+
+
+
+
+
+                    <div data-src='./img/header.png'/>
+                    <div data-src='./img/barterras.jpg'/>
+                    <div data-src='./img/logo8.png'/>
+
+
+
 
 
                 </AwesomeSlider>
-                 <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+                <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
 
 
 
