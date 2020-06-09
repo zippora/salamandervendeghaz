@@ -161,7 +161,7 @@ export class App extends Component {
                     <div className="App">
                         <div className="App-header">
                             <div className="container">
-                                <img className="App-logo" src="./img/logo8.png" alt="logo"/>
+                                <img className="App-logo" src="./img/galer/logo9.png" alt="logo"/>
                                 <h2>Salamander {this.state.huis}</h2>
                                 <nav>
                                     <NavItem title="home" to="/" exact={true}/>
