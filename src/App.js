@@ -167,8 +167,6 @@ export class App extends Component {
                                     <NavItem title="home" to="/" exact={true}/>
                                     <NavItem title={this.state.fotogalerij} to="/fotogalerij"/>
 
-
-
                                 </nav>
 
                                 <div className="flags">
@@ -219,8 +217,6 @@ export class App extends Component {
                         <Route exact path="/aboutUs" component={AboutUs}/>
 
 
-
-                        <Footer/>
 
                     </div>
 

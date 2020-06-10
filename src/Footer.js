@@ -10,11 +10,13 @@ export class Footer extends React.Component {
         return (
 
             <div className="credit">
-            <br/><br/>
 
-                <span className="webmaster">&copy; Design/development by Zippora Levering<br/><br/></span>
+
+                <span>&copy; Design/development by Zippora Levering<br/><br/></span>
 
             </div>
+
+
         );
     }
 }

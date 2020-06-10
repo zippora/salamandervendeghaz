@@ -1,6 +1,12 @@
 import React from 'react';
 import './Home.css';
+import './Footer.css';
+
+import Email from '@material-ui/icons/Email'
+import Phone from '@material-ui/icons/Phone'
+import House from '@material-ui/icons/Home'
 import {SharedLanguageConsumer} from "../App";
+import {Footer} from "../Footer";
 
 
 
@@ -30,15 +36,44 @@ export class Home extends React.Component {
                             <SharedLanguageConsumer>
                             {(context) => context.text3}
                         </SharedLanguageConsumer>
+                            <div className="footer">
+
+                                <br/><br/>
+                                <div className="contact">
+                                    <br/><br/>
+                                    <div className="coll" style={{fontSize: 16}}>Kapcsolat:</div>
+
+                                    <br/><br/>
+                                    <div className="coll"><House/>&nbsp;8251 Zánka, Vérkúti utca 104. </div>
+                                    <div className="coll"><Phone/>&nbsp; +36202816210</div>
+                                    <div className="coll"><Email/>&nbsp; salamandervendeghaz@gmail.com</div>
+                                    <br/><br/>
+                                </div>
+
+                                <div className="contact">
+                                    <br/><br/>
+                                    <div className="coll" style={{fontSize: 15}}>Contact:</div>
+
+                                    <br/><br/>
+                                    <div className="coll"><Phone/>&nbsp; +36204193686</div>
+                                    <div className="coll"><Email/>&nbsp; salamandervendeghaz@gmail.com</div>
+                                    <br/><br/>
+                                    <br/><br/>
+                                </div>
+
+                            </div>
 
                         </p>
                             <img className="footer-logo" src="./img/logo.png" alt="logo"/>
 
 
 
+
+
                         </div>
                         <div className="column">
-                         <img src="img/galer/hatsokerti_piheno.jpg"/>
+                            <video className="video" src="./video/VID-20200609-WA0003.mp4" controls>
+                            </video>
 
                         </div>
 
@@ -99,7 +134,16 @@ export class Home extends React.Component {
                         </div>
                     </div>
                 </div>
+
+
+
+
+
             </div>
+
+
+
+
 
         )
     }

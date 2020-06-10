@@ -54,16 +54,6 @@ export class Fotogalerij extends React.Component {
 
 
 
-
-
-                    <div data-src='./img/header.png'/>
-                    <div data-src='./img/barterras.jpg'/>
-                    <div data-src='./img/logo8.png'/>
-
-
-
-
-
                 </AwesomeSlider>
                 <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
 

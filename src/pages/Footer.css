@@ -1,0 +1,53 @@
+.footer{
+
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 10px;
+    bottom: 10px;
+    position: relative;
+
+
+}
+
+.coll{
+    font-size: 13px;
+    text-align: left;
+    width: 100%;
+    padding-left: 10%;
+
+}
+
+.contact{
+
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin:20px;
+}
+
+
+.coll i {
+    margin-right: 5px;
+    color: #01AFA3;
+}
+.credit{
+
+    font-size: 8px;
+    bottom: 0px;
+
+}
+
+@media (max-width: 700px) {
+    #footer{
+        background: #2C2417;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: #FBF3DA;
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 11px;
+
+    }
+}

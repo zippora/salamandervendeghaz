@@ -12,12 +12,11 @@ section {
 
 .basistext{
     font-family: 'Montserrat',sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     width:80%;
     text-align: center;
     margin: auto auto;
     margin-top: 50px;
-    border-bottom: 5px solid #80b380;
 
 
 }
@@ -32,14 +31,35 @@ section {
 
 .column {
     float: left;
-    width: 45%;
+    width: 48%;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    margin-left: 15%;
-    margin-top: 3em;
+    margin-left: 10%;
     padding-top: 5%;
+    border-top: 2px solid #80b380;
 
 }
+
+.video{
+
+    height: auto;
+    width: 80%;
+    border:1px solid #80b380;
+}
+
+
+
+.column2 {
+    margin-top: 0;
+
+    padding-bottom: 200px;
+
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    float: right;
+    width: 35%;
+}
+
 
 .column img {
 
@@ -50,16 +70,10 @@ section {
 
 }
 
-.column2 {
-    margin-top: 0;
-    font-family: 'Montserrat',sans-serif;
-    font-size: 14px;
-    float: right;
-    width: 35%;
+.footer-logo{
+    width: 20%;
+    align:center;
 }
-
-
-
 
 
 /*phones and down */
@@ -67,11 +81,22 @@ section {
 
     section {
         font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
+        font-weight: 450;
         padding: 20px 10%;
         max-width: 1000px;
         margin: auto auto;
         text-align: center;
+
+    }
+
+
+    .column {
+        float: left;
+        width: 85%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        margin-left: 10%;
+        padding-top: 5%;
 
     }
 
@@ -85,11 +110,21 @@ section {
 
     .basistext{
         font-family: 'Montserrat',sans-serif;
-        font-size: 13px;
-        width:80%;
+        font-size: 14px;
+        width:90%;
         text-align: center;
         margin: auto auto;
         margin-top: 50px;
 
+    }
+
+    .footer-logo{
+        width: 30%;
+        align:center;
+    }
+
+    .video{
+
+        width: 100%;
     }
 }
