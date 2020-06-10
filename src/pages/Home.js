@@ -6,7 +6,6 @@ import Email from '@material-ui/icons/Email'
 import Phone from '@material-ui/icons/Phone'
 import House from '@material-ui/icons/Home'
 import {SharedLanguageConsumer} from "../App";
-import {Footer} from "../Footer";
 
 
 

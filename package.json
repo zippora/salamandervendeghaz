@@ -3,17 +3,18 @@
   "version": "0.3.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.10.1",
     "@material-ui/icons": "^4.9.1",
-    "contentful": "^7.10.0",
-    "react": "^16.9.0",
-    "react-awesome-button": "^6.1.2",
-    "react-awesome-slider": "^2.0.0",
+    "contentful": "^7.14.4",
+    "react": "^16.13.1",
+    "react-awesome-button": "^6.5.1",
+    "react-awesome-slider": "^2.4.0",
     "react-country-flag": "^1.1.0",
-    "react-dom": "^16.11.0",
-    "react-icons": "^3.7.0",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
     "react-image-gallery": "^0.8.18",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^3.2.0"
+    "react-scripts": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
