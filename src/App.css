@@ -177,11 +177,12 @@ h3 {
     }
 
     .banner{
-        position: fixed;
-        display: block;
-        margin-left: 0%;
+        position: relative;
+        display: flex;
+        margin-left: 25%;
+        margin-top: 50%;
         margin-right: auto;
-        width: 10%;
+        width: 50%;
 
     }
 
