@@ -2,6 +2,7 @@ body {
     background: #FAF9F2;
 }
 
+
 .aws-btn {
     --button-default-height: 15px !important;
     --button-default-placeholder-width: 22px !important;
@@ -14,9 +15,20 @@ body {
 
 }
 
+.banner{
+    position: fixed;
+    display: block;
+    margin-left: 0%;
+    margin-right: auto;
+    width: 14%;
+    padding-top: 20%;
+
+}
+
 .flags {
 
     margin: 5px;
+    margin-top: 15%;
     display: flex;
     flex-direction: row;
 }
@@ -42,14 +54,15 @@ body {
 
 
 .App-header {
+
     padding: 10px;
     color: #fcf7e8;
-    top: 0;
     width: 100%;
     background-image: url("/img/herfst.png");
     background-size: cover;
     background-position: center;
-
+    position: fixed;
+    z-index: 3;
 }
 
 .App-intro {
@@ -107,7 +120,7 @@ nav {
 
 
 .App-header .container {
-    margin: 20px;
+    margin: 10px;
     display: flex;
     justify-content: space-evenly;
 
@@ -131,8 +144,8 @@ nav {
 
 h2 {
     font-family: 'Great Vibes', cursive;
-    font-size: 60px;
-    color: #80b380;
+    font-size: 45px;
+    color: #5a217a;
     text-align: left;
     font-weight: lighter;
     padding-left: 10%;
@@ -143,8 +156,8 @@ h2 {
 
 h3 {
     font-family: 'Great Vibes', cursive;
-    font-size: 28px;
-    color: #80b380;
+    font-size: 24px;
+    color: #129912;
     text-align: left;
     font-weight: lighter;
 
@@ -163,6 +176,15 @@ h3 {
 
     }
 
+    .banner{
+        position: fixed;
+        display: block;
+        margin-left: 0%;
+        margin-right: auto;
+        width: 10%;
+
+    }
+
 
     .App-header .container {
         margin: 0 auto;
@@ -176,8 +198,7 @@ h3 {
 
     h2 {
         font-family: 'Great Vibes', cursive;
-        font-size: 34px;
-        color: darkseagreen;
+        font-size: 30px;
         text-align: left;
         font-weight: lighter;
         padding-left: 40%;
@@ -234,7 +255,6 @@ h3 {
         --button-default-border-radius: 5px !important;
         --button-horizontal-padding: 2px !important;
         --button-raise-level: 0px !important;
-        --button-primary-color: #222211 !important;
 
 
     }

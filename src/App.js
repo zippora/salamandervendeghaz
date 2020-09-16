@@ -33,22 +33,24 @@ export class App extends Component {
         fotogalerij: "fotógaléria",
         aboutus:"rólunk",
         huis: "Vendégház",
-        text1: "Zánkán, a Balaton egyik  legszebb részén nyugodt, csendes utcában vendégházunk kiadó.\nA két szintes Nyaraló ideális családok és baráti társaságok, kerékpárosok pihenésére.\nAz ingatlantól 500 méterre található Zánka község strandja, a vasútállomás, buszmegálló. \nÉttermek, boltok, orvosi rendelő 10 perc sétával érhető el.\nA kert alatti Balaton és a parti sétány könnyen megközelíthető.",
-        text2: "Az épület alsó részén két szoba, fürdőszoba, előszoba, konyha és egy bárterasz található, felső részén egybenyitott nagyobb szoba, gyereksarok, teakonyha, fürdőszoba és egy kis terasz van kialakítva.\nIngyenes WIFI hálózat, kábeltévé van.\nFérőhelyünk 7 fő, pótágyazható.\nMindkét teraszunk  Balatonra néz.\nAz udvarban belső parkoló, sátorozási, főzési, grillezési lehetőség adott.\nVendégházunk állatbarát, és akár egy éjszakára is kivehető.\nAz ingatban az alsò ès a felső rèsz kūlön is kivehető.",
-        text3: "A napi díj a teljes ingatlanra 35.000 ft + idegenforgalmi adó 400 ft/fő (18 év felett)\nTel. 06202816210",
+        text1: "Zánkán, a Balaton egyik  legszebb részén nyugodt, csendes utcában vendégházunk kiadó.\nA két szintes nyaraló ideális családok és baráti társaságok, kerékpárosok pihenésére.\nAz ingatlantól 800 méterre található Zánka község strandja, a vasútállomás, buszmegálló. \nÉttermek, boltok, orvosi rendelő 20 perc sétával érhető el.\nA kert alatti Balaton és a parti sétány könnyen megközelíthető.",
+        text2: "Az épület alsó részén két szoba, fürdőszoba, előszoba, konyha és egy bárterasz található, felső részén egybenyitott nagyobb szoba, gyereksarok, teakonyha, fürdőszoba és egy kis terasz van kialakítva.\nIngyenes WIFI hálózat, kábeltévé van.\nFérőhelyünk 7 fő, pótágyazható.\nMindkét teraszunk  Balatonra néz.\nAz udvarban belső parkoló, sátorozási, főzési, grillezési lehetőség adott.\nVendégházunk állatbarát, és akár egy éjszakára is kivehető.",
+        text3: "A napi díj a teljes ingatlanra 35.000 Ft, alsó rész: 20.000 Ft felső rész: 15.000 Ft",
         overig0: "Felszerelés:\n",
-        overig1: "  Azonnali visszaigazolás\n",
-        overig2: "  Ingyenes WIFI\n",
-        overig3: "  Ingyenes parkolás\n",
-        overig4: "  Bababarát szálláshely\n",
-        overig5: "  Zánkai Strand 300 m\n",
-        overig6: "  Neked Főztem Zánka 300 m\n",
-        overig7: "  Lídia Borház 400 m\n",
-        overig8: "  Gyógynövény-völgy 1.7 km\n",
-        overig9: "  Légkondícionálás\n",
-        overig10: "  Kutya bevihető (3 000 Ft / éj)\n",
-        overig11: "  3 szoba, 6 férőhely\n",
-        overig12: "  Beszélt nyelvek: Magyar, Holland, Angol, Német"
+        overig1: " WIFI\n",
+        overig2: " TV+Kábeltévé\n",
+        overig3: " Zuhanyzó\n",
+        overig4: " Kávéfőző\n",
+        overig5: " Vízforraló\n",
+        overig6: " Kenyérpirító\n",
+        overig7: " Mikrosütő\n",
+        overig8: " Bárterasz/Panorámás-terasz\n",
+        overig9: " Kandalló\n",
+        overig10: " Mobilklíma\n",
+        overig11: " Hűtő+Mélyhűtő\n",
+        overig12: " Gáztűzhely\n",
+        overig13: " Villanyrezsó\n",
+        overig14: " Állat hozható"
 
     };
 
@@ -57,95 +59,53 @@ export class App extends Component {
             huis: "Guesthouse",
             aboutus:"about us",
             fotogalerij: "photo gallery\n",
-            text1: "We offer to rent our place in one of the most beautiful place of lake Balaton, a friendly little village, Zánka.\n\n\nOur two story house is perfect either for families, byciclers or group of friends.\nYou can find the village beach, train station, bus stop 500 meters from us.\nRestaurants, grocery stores, doctors office are 10 minutes walking distance.\nIt is easy to reach the Balaton and the walking path along the shore.",
+            text1: "We offer to rent our place in one of the most beautiful place of lake Balaton, a friendly little village, Zánka.\n\n\nOur two story house is perfect either for families, byciclers or group of friends.\nYou can find the village beach, train station, bus stop 800 meters from us.\nRestaurants, grocery stores, doctors office are 20 minutes walking distance.\nIt is easy to reach the Balaton and the walking path along the shore.",
             text2: "On the first floor of the building there are two bedrooms, a bathroom, hall, kitchen and a bar terrace, on the second floor there is a bigger room, children’s corner, small kitchen, bathroom and a small terrace. Both our terraces are facing the lake.\nThere is free WiFi network, and cable TV.\nAnimals are also allowed.",
-            text3: "The daily fee for the entire property is 35.000 ft + city tax of 400 ft/person (18 years and older) Tel. 06202816210",
+            text3: "The daily fee for the entire property is 35.000 ft, ground floor: 20.000 ft, upper floor: 15.000 ft",
             overig0: "Facilities:\n",
-            overig1: "  Instant confirmation\n",
-            overig2: "  Free WiFi\n",
-            overig3: "  Free parking\n",
-            overig4: "  Baby friendly\n",
-            overig5: "  Zánka beach 300 m\n",
-            overig6: "  Neked főztem Restaurant Zánka 300 m\n",
-            overig7: "  Lídia Wine House 400 m\n",
-            overig8: "  Valley of Herbs 1.7 km\n",
-            overig9: "  Air conditioning\n",
-            overig10: "  Dog allowed (3 000 Ft / night)\n",
-            overig11: "  3 rooms, 6 people",
-            overig12: "  spoken languages: Hungarian, Dutch, German, English"
+            overig1: "  WIFI\n",
+            overig2: "  TV + Cable television\n",
+            overig3: "  Shower\n",
+            overig4: "  Coffee machine\n",
+            overig5: "  Water boiler\n",
+            overig6: "  Toaster\n",
+            overig7: "  Microwave\n",
+            overig8: "  Terrace with a panorama view\n",
+            overig9: "  Wood stove\n",
+            overig10: "  Airconditioning\n",
+            overig11: "  Fridge + Freezer\n",
+            overig12: "  Stove\n",
+            overig13: "  Pets allowed\n",
+            overig14: "\n"
         });
     };
 
-    onClickButtonnl = () => {
-        this.setState({
-            huis: "Gasthuis",
-            aboutus:"over ons",
-            fotogalerij: "fotogalerij",
-            text1: "Wij bieden ons huis te huur aan in Zánka, één van de mooiste delen van het Balatonmeer.\n\n\nDit vakantiehuis is ideaal voor gezinnen en groepen fietsers of vrienden.\nHet ligt direct aan het fietspad en niet ver van het strand, het dorp en het trein- en busstation.\nRestaurants, winkels, medische hulp en apotheek liggen allen op 15-20 minuten loopafstand.\nHet huis ligt aan het Balatonmeer en het wandelpad langs de oever.",
-            text2: "Op de begane grond zijn twee slaapkamers, een badkamer, gang, keuken en een 'bar-terras', op de eerste verdieping is een woonkamer, kinderspeelhoek, kleine theekeukentje, badkamer met douche en een klein terras. Al onze terassen geven een mooi uitzicht over het meer.\nEr is gratis wifi en kabel TV.\nHuisdieren zijn toegestaan. In det tuin zijn kook- en barbecuefaciliteiten beschikbaar. Het huis is geschikt voor 7-8 personen, maar er zijn extra matrassen beschikbaar",
-            text3: "Huisdieren zijn welkom. De prijs per dag voor het gehele huis is 35.000 ft + toeristenbelasting á 400 ft/p.p. (18 jaar en ouder) Tel. 06202816210",
-            overig0: "Faciliteiten:\n",
-            overig1: "  Direct bevestiging\n",
-            overig2: "  Gratis WiFi\n",
-            overig3: "  Gratis parkeren\n",
-            overig4: "  Kindvriendelijk\n",
-            overig5: "  Zánka Strand 300 m\n",
-            overig6: "  Neked főztem Restaurant Zánka 300 m\n",
-            overig7: "  Lídia Wijnhuis 400 m\n",
-            overig8: "  Kruidenvallei 1.7 km\n",
-            overig9: "  Air conditioning\n",
-            overig10: "  Hond toegestaan (3 000 Ft / nacht)\n",
-            overig11: "  3 kamers, 6 personen",
-            overig12: "  gesproken talen: Hongaars, Nederlands, Duits, Engels"
-        });
-    };
 
-    onClickButtonde = () => {
-        this.setState({
-            huis: "Gästehaus",
-            aboutus:"Über uns",
-            fotogalerij: "fotogalerie",
-            text1: "Unser Gästehaus befindet sich in einer ruhigen Straße in Zánka, einem der schönsten Teile des Plattensees. Dieses zweistöckige Ferienhaus ist ideal für Familien und Gruppen von Freunden und Radfahrern. Die Unterkunft befindet sich 500 m vom Strand Zánka, einem Bahnhof und einer Bushaltestelle entfernt. Restaurants, Geschäfte und eine Arztpraxis erreichen Sie in 10 Minuten zu Fuß. Der Plattensee und die Strandpromenade sind bequem zu erreichen.",
-            text2: "Der untere Teil des Gebäudes besteht aus zwei Räumen, einem Badezimmer, einem Flur, einer Küche und einer Bar-Terrasse, der obere Teil besteht aus einem größeren zusammenhängenden Raum, einer Kinderecke, einer Küchenzeile, einem Badezimmer und einer kleinen Terrasse. Kostenloses WIFI-Netzwerk, Kabel-TV. Unsere Kapazität beträgt 7 Personen, Zustellbett möglich. Beide Terrassen überblicken den Plattensee. Auf dem Hof ​​gibt es ein Parkhaus, Zelt-, Koch- und Grillmöglichkeiten. Unser Gästehaus ist tierfreundlich und kann über Nacht mitgenommen werden.",
-            text3: "Tägliche Gebühr für das gesamte Anwesen 35.000 ft + Kurtaxe 400 ft / Person (über 18) Tel. 06202816210",
-            overig0: "Einrichtungen:\n",
-            overig1: "  Sofortige Bestätigung\n",
-            overig2: "  Kostenloses WiFi\n",
-            overig3: "  Kostenlose Parkplätze\n",
-            overig4: "  kinderfreundlich\n",
-            overig5: "  Zánka Strand 300 m\n",
-            overig6: "  Neked főztem Restaurant Zánka 300 m\n",
-            overig7: "  Lídia Weingut 400 m\n",
-            overig8: "  Tal der Kräuter\n 1.7 km\n",
-            overig9: "  Klimaanlage\n",
-            overig10: "  Hund erlaubt (3 000 Ft / nacht)\n",
-            overig11: "  3 zimmer, 6 menschen",
-            overig12: "  gesprochene Sprachen: Ungarisch, Niederländisch, Deutsch, Englisch"
-        });
-    };
 
 
     onClickButtonhu = () => {
         this.setState({
-            contact: "fotógaléria",
+            fotogalerij: "fotógaléria",
             aboutus:"rólunk",
             huis: "Vendégház",
-            text1: "Zánkán, a Balaton egyik  legszebb részén nyugodt, csendes utcában vendégházunk kiadó.\nA két szintes Nyaraló ideális családok és baráti társaságok, kerékpárosok pihenésére.\nAz ingatlantól 500 méterre található Zánka község strandja, a vasútállomás, buszmegálló. \nÉttermek, boltok, orvosi rendelő 10 perc sétával érhető el.\nA kert alatti Balaton és a parti sétány könnyen megközelíthető.",
-            text2: "Az épület alsó részén két szoba, fürdőszoba, előszoba, konyha és egy bárterasz található, felső részén egybenyitott nagyobb szoba, gyereksarok, teakonyha, fürdőszoba és egy kis terasz van kialakítva.\nIngyenes WIFI hálózat, kábeltévé van.\nFérőhelyünk 7 fő, pótágyazható.\nMindkét teraszunk  Balatonra néz.\nAz udvarban belső parkoló, sátorozási, főzési, grillezési lehetőség adott.\nVendégházunk állatbarát, és akár egy éjszakára is kivehető.\nAz ingatban az alsò ès a felső rèsz kūlön is kivehető.",
-            text3: "A napi díj a teljes ingatlanra 35.000 ft + idegenforgalmi adó 400 ft/fő (18 év felett)\nTel. 06202816210",
+            text1: "Zánkán, a Balaton egyik  legszebb részén nyugodt, csendes utcában vendégházunk kiadó.\nA két szintes nyaraló ideális családok és baráti társaságok, kerékpárosok pihenésére.\nAz ingatlantól 800 méterre található Zánka község strandja, a vasútállomás, buszmegálló. \nÉttermek, boltok, orvosi rendelő 20 perc sétával érhető el.\nA kert alatti Balaton és a parti sétány könnyen megközelíthető.",
+            text2: "Az épület alsó részén két szoba, fürdőszoba, előszoba, konyha és egy bárterasz található, felső részén egybenyitott nagyobb szoba, gyereksarok, teakonyha, fürdőszoba és egy kis terasz van kialakítva.\nIngyenes WIFI hálózat, kábeltévé van.\nFérőhelyünk 7 fő, pótágyazható.\nMindkét teraszunk  Balatonra néz.\nAz udvarban belső parkoló, sátorozási, főzési, grillezési lehetőség adott.\nVendégházunk állatbarát, és akár egy éjszakára is kivehető.",
+            text3: "A napi díj a teljes ingatlanra 35.000 Ft, alsó rész: 20.000 Ft felső rész: 15.000 Ft",
             overig0: "Felszerelés:\n",
-            overig1: "  Azonnali visszaigazolás\n",
-            overig2: '  Ingyenes WIFI\n',
-            overig3: "  Ingyenes parkolás\n",
-            overig4: "  Bababarát szálláshely\n",
-            overig5: "  Zánkai Strand 300 m\n",
-            overig6: "  Neked Főztem Zánka 300 m\n",
-            overig7: "  Lídia Borház 400 m\n",
-            overig8: "  Gyógynövény-völgy 1.7 km\n",
-            overig9: "  Légkondícionálás\n",
-            overig10: "  Kutya bevihető (3 000 Ft / éj)\n",
-            overig11: "  3 szoba, 6 férőhely\n",
-            overig12: "  Beszélt nyelvek: Magyar, Holland, Angol, Német"
+            overig1: " WIFI\n",
+            overig2: " TV+Kábeltévé\n",
+            overig3: " Zuhanyzó\n",
+            overig4: " Kávéfőző\n",
+            overig5: " Vízforraló\n",
+            overig6: " Kenyérpirító\n",
+            overig7: " Mikrosütő\n",
+            overig8: " Bárterasz/Panorámás-terasz\n",
+            overig9: " Kandalló\n",
+            overig10: " Mobilklíma\n",
+            overig11: " Hűtő+Mélyhűtő\n",
+            overig12: " Gáztűzhely\n",
+            overig13: " Villanyrezsó\n",
+            overig14: " Állat hozható"
 
 
         });
@@ -159,18 +119,19 @@ export class App extends Component {
                 <Router>
 
                     <div className="App">
+
                         <div className="App-header">
                             <div className="container">
                                 <img className="App-logo" src="./img/galer/logo9.png" alt="logo"/>
-                                <h2>Salamander {this.state.huis}</h2>
+                                <h2>Salamander {this.state.huis}
+                                </h2>
                                 <nav>
                                     <NavItem title="home" to="/" exact={true}/>
                                     <NavItem title={this.state.fotogalerij} to="/fotogalerij"/>
-
                                 </nav>
 
-                                <div className="flags">
 
+                                <div className="flags">
                                     <AwesomeButton onPress={this.onClickButtonhu}> <ReactCountryFlag
                                         styleProps={{
                                             width: '20px',
@@ -188,25 +149,6 @@ export class App extends Component {
                                         svg
                                     />
                                     </AwesomeButton>
-                                    <AwesomeButton onPress={this.onClickButtonnl}> <ReactCountryFlag
-                                        styleProps={{
-                                            width: '20px',
-                                            height: '14px'
-                                        }}
-                                        code="nl"
-                                        svg
-                                    />
-                                    </AwesomeButton>
-                                    <AwesomeButton onPress={this.onClickButtonde}> <ReactCountryFlag
-                                        styleProps={{
-                                            width: '20px',
-                                            height: '14px'
-                                        }}
-                                        code="de"
-                                        svg
-                                    />
-                                    </AwesomeButton>
-
                                 </div>
                             </div>
 

@@ -7,8 +7,7 @@ import Phone from '@material-ui/icons/Phone'
 import House from '@material-ui/icons/Home'
 import {SharedLanguageConsumer} from "../App";
 
-
-
+import { FacebookProvider, EmbeddedPost } from 'react-facebook';
 
 
 export class Home extends React.Component {
@@ -19,11 +18,13 @@ export class Home extends React.Component {
 
         return (
             <div className="Home">
+
+                <a href={"https://www.facebook.com/pages/category/Hotel---Lodging/Salamander-Vend%C3%A8gh%C3%A0z-348967912384842/"}><img alt="banner" className="banner" src="./img/banner2.png"/></a>
+
                 <div className="intro">
                     <div className="bg-white">
                         <div className="basistext">
-
-                        <p>
+                            <p>
                             <SharedLanguageConsumer>
                                 {(context) => context.text1}
                             </SharedLanguageConsumer>
@@ -54,6 +55,7 @@ export class Home extends React.Component {
                                     <div className="coll" style={{fontSize: 15}}>Contact:</div>
 
                                     <br/><br/>
+                                    <div className="coll"><House/>&nbsp;8251 Zánka, Vérkúti utca 104. </div>
                                     <div className="coll"><Phone/>&nbsp; +36204193686</div>
                                     <div className="coll"><Email/>&nbsp; salamandervendeghaz@gmail.com</div>
                                     <br/><br/>
@@ -130,6 +132,15 @@ export class Home extends React.Component {
                                 <SharedLanguageConsumer>
                                     {(context) => context.overig12}
                                 </SharedLanguageConsumer></p>
+                            <p>&#x02022;
+                                <SharedLanguageConsumer>
+                                    {(context) => context.overig13}
+                                </SharedLanguageConsumer></p>
+                            <p>&#x02022;
+                                <SharedLanguageConsumer>
+                                    {(context) => context.overig14}
+                                </SharedLanguageConsumer></p>
+
                         </div>
                     </div>
                 </div>

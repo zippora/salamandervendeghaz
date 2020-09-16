@@ -1,6 +1,9 @@
 .bg-white{
 }
 
+
+
+
 section {
     font-family: 'Montserrat',sans-serif;
     padding: 20px 25%;
@@ -16,7 +19,8 @@ section {
     width:80%;
     text-align: center;
     margin: auto auto;
-    margin-top: 50px;
+    margin-left: 15%;
+    padding-top: 25%;
 
 
 }
@@ -34,9 +38,9 @@ section {
     width: 48%;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    margin-left: 10%;
+    margin-left: 15%;
     padding-top: 5%;
-    border-top: 2px solid #80b380;
+    border-top: 2px solid #129912;
 
 }
 
@@ -114,7 +118,7 @@ section {
         width:90%;
         text-align: center;
         margin: auto auto;
-        margin-top: 50px;
+        margin-top: 10%;
 
     }
 
