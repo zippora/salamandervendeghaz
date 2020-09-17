@@ -14,7 +14,7 @@ export class Fotogalerij extends React.Component {
 
     render() {
         return (
-            <section className="foto">
+            <section className="fotoo">
 
                 <AwesomeSlider organicArrows={true}>
                     <div data-src="./img/galer/buiten.jpg"/>

@@ -7,8 +7,7 @@ import {Home} from "./pages/Home";
 import {createClient} from 'contentful';
 import {Footer} from "./Footer";
 import {Fotogalerij} from './pages/Fotogalerij';
-import {Fotogalerij2} from './pages/Fotogalerij2';
-import {AboutUs} from './pages/AboutUs';
+import {Project} from './pages/Project';
 
 
 
@@ -128,6 +127,7 @@ export class App extends Component {
                                 <nav>
                                     <NavItem title="home" to="/" exact={true}/>
                                     <NavItem title={this.state.fotogalerij} to="/fotogalerij"/>
+
                                 </nav>
 
 
@@ -155,8 +155,7 @@ export class App extends Component {
                         </div>
                         <Route exact path="/" component={Home}/>
                         <Route exact path="/fotogalerij" component={Fotogalerij}/>
-                        <Route exact path="/fotogalerij2" component={Fotogalerij2}/>
-                        <Route exact path="/aboutUs" component={AboutUs}/>
+                        <Route exact path="/project" component={Project}/>
 
 
 

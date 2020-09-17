@@ -1,10 +1,10 @@
 
-.foto {
+.fotoo {
 
     max-width: 2000px;
     padding: 15px 20%;
     border-radius:3px;
-    margin-top: 30%;
+    padding-top: 30%;
     height: 200%;
 }
 
@@ -24,10 +24,14 @@
 /* Landscape phones and down */
 @media (max-width: 600px) {
 
-    .foto {
+    .fotoo {
 
         padding: 5px 5%;
-        margin-top: 10px;
+        padding-top: 95%;
         height: 400%;
     }
+
+
+
 }
+

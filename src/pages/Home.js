@@ -7,7 +7,6 @@ import Phone from '@material-ui/icons/Phone'
 import House from '@material-ui/icons/Home'
 import {SharedLanguageConsumer} from "../App";
 
-import { FacebookProvider, EmbeddedPost } from 'react-facebook';
 
 
 export class Home extends React.Component {
