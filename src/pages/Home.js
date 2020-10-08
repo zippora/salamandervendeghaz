@@ -47,6 +47,9 @@ export class Home extends React.Component {
                                     <div className="coll"><Phone/>&nbsp; +36204193686</div>
                                     <div className="coll"><Email/>&nbsp; salamandervendeghaz@gmail.com</div>
                                     <br/><br/>
+                                    <div className="coll">NTAK regisztrációs szám: EG19020950</div>
+
+                                    <br/><br/>
                                 </div>
 
                                 <div className="contact">
