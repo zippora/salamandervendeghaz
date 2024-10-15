@@ -18,7 +18,7 @@ export class Home extends React.Component {
         return (
             <div className="Home">
 
-                <a href={"https://www.facebook.com/pages/category/Hotel---Lodging/Salamander-Vend%C3%A8gh%C3%A0z-348967912384842/"}><img alt="banner" className="banner" src="./img/banner2.png"/></a>
+                <a href={"https://www.facebook.com/pages/category/Hotel---Lodging/Salamander-Vend%C3%A8gh%C3%A0z-348967912384842/"}</a>
 
                 <div className="intro">
                     <div className="bg-white">
