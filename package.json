@@ -5,7 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^4.10.1",
     "@material-ui/icons": "^4.9.1",
-    "contentful": "^7.14.4",
+    "contentful": "^11.5.4",
     "react": "^16.13.1",
     "react-awesome-button": "^6.5.1",
     "react-awesome-slider": "^2.4.0",
